@@ -1,0 +1,88 @@
+{
+  "product_name": "Link Locker",
+  "version": "1.0.0",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "advanced_antigravity_features": [
+    "Declarative UI generation with adaptive layout blocks",
+    "Smart state-machine builder for offline-first flows",
+    "Optimized local-cache reconciliation module",
+    "Ultra-fast list virtualization",
+    "Secure metadata fetcher sandboxed for URL parsing",
+    "Gesture engine: swipe, long-press, multi-action trays",
+    "Auto-theme engine (light/dark/system adaptive)",
+    "Cloud-sync delta-merging with conflict resolution",
+    "Predictive input helpers for fast link entry",
+    "Smart component reuse with slot-based rendering"
+  ],
+  "overview": "A modern personal link organizer with offline-first architecture, category folders, tags, notes, and optional Supabase sync.",
+  "core_features": [
+    "Custom categories",
+    "Card-based link UI",
+    "Tags + notes",
+    "URL metadata extraction",
+    "Favorites & recents",
+    "Search & filtering",
+    "Offline-first storage",
+    "Supabase sync",
+    "WebView-safe link opening"
+  ],
+  "data_models": {
+    "category": {
+      "id": "uuid",
+      "user_id": "uuid",
+      "name": "string"
+    },
+    "link": {
+      "id": "uuid",
+      "user_id": "uuid",
+      "category_id": "uuid",
+      "url": "string",
+      "title": "string",
+      "notes": "string",
+      "tags": [
+        "string"
+      ],
+      "favorited": "boolean",
+      "created_at": "timestamp",
+      "updated_at": "timestamp"
+    }
+  },
+  "ui_components": {
+    "card": [
+      "title",
+      "tags",
+      "notes",
+      "favicon",
+      "timestamp",
+      "favorite_button"
+    ],
+    "category_tile": [
+      "name",
+      "count"
+    ],
+    "search_bar": [
+      "input",
+      "filters"
+    ],
+    "settings": [
+      "sync_toggle",
+      "theme_toggle"
+    ]
+  },
+  "sync_logic": {
+    "mode": "offline_first",
+    "sync_on": [
+      "app_open",
+      "add",
+      "edit",
+      "delete",
+      "login",
+      "manual_refresh"
+    ],
+    "conflict_resolution": "last_write_wins",
+    "queue_engine": "delta_push_pull"
+  }
+}

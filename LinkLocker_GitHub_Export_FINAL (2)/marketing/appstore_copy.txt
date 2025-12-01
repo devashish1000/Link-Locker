@@ -1,0 +1,13 @@
+# 📱 Link Locker
+
+Save every link, organize with ease.
+
+From TikTok recipes to internship portals, Link Locker helps you keep your digital life clean.
+
+- Tag links into clean folders
+- Add notes or reminders
+- Search, favorite, and filter
+- Offline-first with optional sync
+- Works on iPhone + Android
+
+🔒 100% Private. Optional login for cloud backup.

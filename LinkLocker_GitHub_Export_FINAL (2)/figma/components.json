@@ -1,0 +1,39 @@
+{
+  "components": {
+    "Navbar": [
+      "Logo",
+      "Profile Icon",
+      "Favorites Icon"
+    ],
+    "TabBar": [
+      "Home Icon",
+      "Saved Icon",
+      "Closet Icon",
+      "Profile Icon"
+    ],
+    "Card/Link": [
+      "Image",
+      "Title",
+      "Tags",
+      "Notes",
+      "Timestamp",
+      "Favorite Button"
+    ],
+    "Button/Primary": [
+      "Label"
+    ],
+    "Button/Chip": [
+      "Label",
+      "Selectable State"
+    ],
+    "SearchBar": [
+      "Input Field",
+      "Filter Button"
+    ],
+    "SettingsItem": [
+      "Icon",
+      "Label",
+      "Toggle"
+    ]
+  }
+}

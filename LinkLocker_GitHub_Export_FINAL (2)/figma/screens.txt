@@ -1,0 +1,10 @@
+# 🎨 Link Locker - Screen Layout
+
+1. Onboarding / Welcome
+2. AI Prompt Screen (“New outfit for?”)
+3. Link Feed (Card View)
+4. View Link Card (Expanded)
+5. Add Link Flow
+6. Category List
+7. Favorites / Recents
+8. Settings
